@@ -13,18 +13,18 @@ main:
 	
 	#bin
 	li $t1, 0
-	#iterador
+	# iterador
 	li $t2, 1
 	
 	
 	while:
-	#restinho
+	# resto
 	rem $t3, $t0, 8
 	#divisao
 	div $t0, $t0, 8
-	#auxiliar posto pra trabalhar
+	
 	mul $t4, $t2, $t3
-	#soma
+	# soma
 	add $t1, $t1, $t4
 	mul $t2, $t2, 10
 	

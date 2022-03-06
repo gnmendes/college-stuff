@@ -16,7 +16,7 @@ main:
 	li $t1, 1
 	li $t2, -1
 	li $t6, 1
-	#laçozinho para ficar rodando até o termo que o usuário inseriu
+	#laço para ficar rodando até o termo que o usuário inseriu
 	while:
 	#t3 aux
 	add $t3, $t1, $t2
@@ -36,7 +36,7 @@ main:
 	#atual recebendo aux
 	add $t1, $t4, $zero
 	
-	#contadora de merda para acrescer
+	#contadora para acrescer
 	add $t6, $t6, 1
 	bge $t0, $t6, while
 	#maior ou igual pelo simples fato de que se eu jogo apenas um maior, ele faz um termo a menos

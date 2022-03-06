@@ -18,11 +18,11 @@ main:
 	
 	
 	while:
-	#restinho
+	# resto
 	rem $t3, $t0, 2
 	#divisao
 	div $t0, $t0, 2
-	#auxiliar posto pra trabalhar
+	
 	mul $t4, $t2, $t3
 	#soma
 	add $t1, $t1, $t4
